@@ -1,5 +1,149 @@
-/*body {
 
-	background-color: red;
+/*
+   * 
+   * CSS RESET
+   *
+   *
+  */
 
-}*/
+* {
+
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+/*
+   * 
+   * GENERAL RULES
+   *
+   *
+  */
+
+
+ 
+  section {
+     min-height: 100vh;
+
+  }
+
+  /*
+   * 
+   * Sections
+   *
+   *
+  */
+
+   section#bio {
+   
+    background-color: #fff;
+    position: relative;
+   }
+
+   section#bio,
+   section#bio a {
+      
+       color: #000;
+
+   }
+
+   section#bio > div#details > img {
+
+   border-radius: 50%;
+   width: 200px;
+   border: 5px solid #d4d4d4;
+   padding: 5px;
+   }
+
+   section#bio > div#details > h1,
+   section#bio > div#details > ul {
+ 
+   font-family: 'Source Sans Pro', sans-serif;
+   padding-top: 15px;
+   padding-bottom: 15px;
+
+   }
+
+   section#bio > div#details > h1 {
+    font-size: 40px;
+
+   }
+
+   section#bio > div#details > ul {
+  
+    list-style: none;
+    font-size: 20px;
+
+   }
+
+   div#details {
+    width: 50%;
+    text-align: center;
+    padding: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+   }
+
+
+  section#projects {
+
+  	 background-color: #b4a3a3;
+  }
+
+  section#skillset {
+
+     background-color: 	#d4d4d4;
+  }
+
+   section#contact {
+
+     background-color: 	#949292;
+     position: relative;
+   }
+
+   section#projects > h2,
+   section#skillset > h2,
+   section#contact > h2 {
+  
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+   }
+
+
+body {
+
+    font-family: 'Raleway', sans-serif;
+
+}
+
+
+/*
+ *
+ *
+ * Footer
+ *
+ */
+
+ footer {
+
+ 	padding-top: 15px;
+ 	padding-bottom: 15px;
+ 	text-align: center;
+ 	background-color: #d4d4d4;
+ 	color: #000;
+ 	position: absolute;
+ 	bottom: 0;
+ 	width: 100%;
+ }
+
+ footer a {
+
+ 	color: #000;
+ }
